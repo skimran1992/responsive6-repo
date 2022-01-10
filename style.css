@@ -1,0 +1,8 @@
+video{
+    width: 560px;
+    height: 315px;
+}
+.display div{
+    display: flex;
+    
+}
