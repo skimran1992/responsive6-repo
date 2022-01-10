@@ -1,8 +1,10 @@
-video{
-    width: 560px;
-    height: 315px;
+table{
+    
+    border-collapse: collapse;
 }
-.display div{
-    display: flex;
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 2px;
     
 }
