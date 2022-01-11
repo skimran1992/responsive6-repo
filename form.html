@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form fillup first</h1>
+    <form action="">
+        <p>Name:<input type="text" name="Name" id="" placeholder="Enter Your Name"></p>
+        <p>Email:<input type="text" name="Email" id="" placeholder="Enter Your Email"></p>
+        <p>Address:<input type="text" name="Address" id="" placeholder="Enter Your Address"></p>
+        <fieldset>
+            <legend>Select Your Subject</legend>
+            <p>
+                <label for="CSE">
+                    <input type="radio" name="Subject" id="CSE">CSE
+                </label>
+            </p>
+            <p>
+                <label for="EEE">
+                    <input type="radio" name="Subject" id="EEE">EEE
+                </label>
+            </p>
+            <p>
+                <label for="BBA">
+                    <input type="radio" name="Subject" id="BBA">BBA
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Your Section</legend>
+            <p><label for="a"><input type="checkbox" name="Section" id="a">A</label></p>
+            <p><label for="b"><input type="checkbox" name="Section" id="b">B</label></p>
+            <p><label for="c"><input type="checkbox" name="Section" id="c">C</label></p>
+        </fieldset>
+        <p>Special Instructions</p><br>
+        <textarea name="instruction" id="" cols="30" rows="10"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
